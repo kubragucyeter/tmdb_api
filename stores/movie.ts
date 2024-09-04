@@ -5,7 +5,7 @@ export const useMovieStore = defineStore("movieStore", () => {
     const movies = ref([]);
     const config = useRuntimeConfig()
     
-    const fetchMovies = async () => {
+    const fetchMovies =  async () => {
     const options = {
         method: 'GET',
         headers: {
