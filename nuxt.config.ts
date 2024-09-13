@@ -4,9 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/ui", '@nuxtjs/color-mode', '@pinia/nuxt',],
 
+  css : ['primeflex/primeflex.css'],
   runtimeConfig: {
     public: {
-      tmdbApiKey : process.env.TMDB_API,
+       tmdbApiKey : process.env.TMDB_API,
       tmdbToken :process.env.TMDB_TOKEN,
     }
   }

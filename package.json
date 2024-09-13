@@ -13,9 +13,11 @@
     "@nuxt/ui": "^2.18.4",
     "@nuxtjs/composition-api": "^0.34.0",
     "@pinia/nuxt": "^0.5.4",
+    "axios": "^1.7.7",
     "node-fetch": "2",
     "nuxt": "^3.12.4",
     "pinia": "^2.2.2",
+    "primeflex": "^3.3.1",
     "vue": "latest"
   },
   "devDependencies": {
